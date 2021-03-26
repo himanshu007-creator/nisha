@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<extension type="plugin" version="4.0" method="upgrade" group="content">
+<name>My Login</name>
+<author>HIMANSHU</author>
+<version>1.0.0</version>
+<description>This is My Login Plugin</description>
+<files>
+<filename>mylogin.xml</filename>
+<filename plugin="myLogin">mylogin.php</filename>
+<filename>index.html</filename>
+</files>
+<config>
+<fields name="params">
+<fieldset name="bassic" label="MyLogin Settings">
+<field name="menu_id" type="menuitem" label="Select Redirect Page"/>
+</fieldset>
+</fields>
+</config>
+</extension>
